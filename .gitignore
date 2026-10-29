@@ -1,0 +1,85 @@
+# Ambiente, caches e arquivos locais
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.agents/
+.codex/
+.aws/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.lock
+*.tmp
+*.part
+
+# Credenciais e chaves nunca são versionadas
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+token.json
+
+# Dados originais e derivados são reproduzidos pelo pipeline
+/dataset/
+/weights/
+*.pt
+*.onnx
+*.engine
+*.npy
+*.cache
+*.zip
+
+# Configurações temporárias específicas da máquina
+/config/*
+!/config/batches.json
+!/config/detection.yaml
+!/config/segmentation.yaml
+
+# Entrega final; HTML e versões anteriores permanecem locais
+/entrega/*
+!/entrega/Prova_YOLO_Subestacoes_Final.pdf
+
+# Relatórios finais selecionados; exclui anotações completas e diagnósticos
+/relatorios/*
+!/relatorios/ambiente.json
+!/relatorios/analise_critica.md
+!/relatorios/auditoria_contagens.csv
+!/relatorios/auditoria_fonte.json
+!/relatorios/benchmark_observacoes.csv
+!/relatorios/benchmark_padronizado.csv
+!/relatorios/benchmark_padronizado.json
+!/relatorios/config_detection_YOLO11.json
+!/relatorios/config_detection_YOLOv8.json
+!/relatorios/config_segmentation_YOLO11.json
+!/relatorios/config_segmentation_YOLOv8.json
+!/relatorios/correcoes_descartes.json
+!/relatorios/distribuicao_classes.csv
+!/relatorios/distribuicao_imagens_classes.csv
+!/relatorios/execucao.json
+!/relatorios/inspecao_mascaras.json
+!/relatorios/metricas_comparativas.csv
+!/relatorios/preparacao.json
+!/relatorios/validacao_entrega.json
+
+# Experimentos: métricas, curvas e exemplos; sem pesos nem testes funcionais
+/resultados/**
+!/resultados/**/
+!/resultados/**/args.yaml
+!/resultados/**/results.csv
+!/resultados/**/results.png
+!/resultados/**/tempos_epocas.json
+!/resultados/**/concluido.json
+!/resultados/**/metricas.json
+!/resultados/**/classes_*.csv
+!/resultados/**/predicao_*.jpg
+/resultados/funcional/

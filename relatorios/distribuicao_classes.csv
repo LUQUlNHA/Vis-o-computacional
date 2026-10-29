@@ -1,0 +1,46 @@
+split,class_id,classe,objetos
+test,0,Open blade disconnect switch,40
+test,1,Closed blade disconnect switch,718
+test,2,Open tandem disconnect switch,201
+test,3,Closed tandem disconnect switch,137
+test,4,Breaker,143
+test,5,Fuse disconnect switch,45
+test,6,Glass disc insulator,493
+test,7,Porcelain pin insulator,3615
+test,8,Muffle,261
+test,9,Lightning arrester,316
+test,10,Recloser,318
+test,11,Power transformer,124
+test,12,Current transformer,365
+test,13,Potential transformer,83
+test,14,Tripolar disconnect switch,385
+train,0,Open blade disconnect switch,214
+train,1,Closed blade disconnect switch,3761
+train,2,Open tandem disconnect switch,1078
+train,3,Closed tandem disconnect switch,647
+train,4,Breaker,657
+train,5,Fuse disconnect switch,249
+train,6,Glass disc insulator,2220
+train,7,Porcelain pin insulator,18869
+train,8,Muffle,894
+train,9,Lightning arrester,1312
+train,10,Recloser,1695
+train,11,Power transformer,538
+train,12,Current transformer,1439
+train,13,Potential transformer,488
+train,14,Tripolar disconnect switch,1675
+val,0,Open blade disconnect switch,54
+val,1,Closed blade disconnect switch,742
+val,2,Open tandem disconnect switch,317
+val,3,Closed tandem disconnect switch,173
+val,4,Breaker,179
+val,5,Fuse disconnect switch,61
+val,6,Glass disc insulator,467
+val,7,Porcelain pin insulator,3964
+val,8,Muffle,199
+val,9,Lightning arrester,346
+val,10,Recloser,316
+val,11,Power transformer,106
+val,12,Current transformer,324
+val,13,Potential transformer,80
+val,14,Tripolar disconnect switch,288

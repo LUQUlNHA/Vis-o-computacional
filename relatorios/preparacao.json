@@ -1,0 +1,44 @@
+{
+  "classes": [
+    "Open blade disconnect switch",
+    "Closed blade disconnect switch",
+    "Open tandem disconnect switch",
+    "Closed tandem disconnect switch",
+    "Breaker",
+    "Fuse disconnect switch",
+    "Glass disc insulator",
+    "Porcelain pin insulator",
+    "Muffle",
+    "Lightning arrester",
+    "Recloser",
+    "Power transformer",
+    "Current transformer",
+    "Potential transformer",
+    "Tripolar disconnect switch"
+  ],
+  "images_original": 1660,
+  "json_original": 1660,
+  "valid_images": 1660,
+  "objects": 50596,
+  "splits": {
+    "train": 1162,
+    "test": 249,
+    "val": 249
+  },
+  "annotation_types": {
+    "polygon": 52886
+  },
+  "grouped_instances": 0,
+  "exact_duplicate_images": 1,
+  "issues": 3665,
+  "inventory": {
+    "14_masks": 1660,
+    "15_masks": 1660,
+    "images": 1660,
+    "labels_json": 1660,
+    "porcelain_masks": 1660
+  },
+  "seed": 42,
+  "split_method": "shuffle de grupos SHA256; 70/15/15 com arredondamento",
+  "limitation": "Uma única subestação; divisão aleatória não garante independência de pontos de vista ou datas. Polígonos sem group_id são tratados como instâncias anotadas, não identidade física rastreada."
+}

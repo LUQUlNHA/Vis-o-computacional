@@ -1,0 +1,12 @@
+{
+  "epochs": 20,
+  "batch": 8,
+  "seconds_this_session": 1765.2231856000144,
+  "epoch_seconds_total": 1735.7951458001044,
+  "first_epoch_seconds": 117.31982800015248,
+  "functional": false,
+  "effective_amp": true,
+  "effective_batch": 8,
+  "optimizer_class": "SGD",
+  "note": "Tempos por época incluem validação; tempo de sessão inclui inicialização e avaliação final."
+}

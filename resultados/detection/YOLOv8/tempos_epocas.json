@@ -1,0 +1,182 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 63.65257819998078,
+    "cuda_peak_allocated_bytes": 1265025024,
+    "cuda_free_bytes": 2445279232,
+    "batch": 8,
+    "ram_available_bytes": 237092864,
+    "process_rss_bytes": 815116288
+  },
+  {
+    "epoch": 2,
+    "seconds": 58.14720279991161,
+    "cuda_peak_allocated_bytes": 1303911936,
+    "cuda_free_bytes": 2434793472,
+    "batch": 8,
+    "ram_available_bytes": 274132992,
+    "process_rss_bytes": 330313728
+  },
+  {
+    "epoch": 3,
+    "seconds": 60.95781769999303,
+    "cuda_peak_allocated_bytes": 1257202176,
+    "cuda_free_bytes": 2434793472,
+    "batch": 8,
+    "ram_available_bytes": 300515328,
+    "process_rss_bytes": 259522560
+  },
+  {
+    "epoch": 4,
+    "seconds": 55.711467800079845,
+    "cuda_peak_allocated_bytes": 1294367232,
+    "cuda_free_bytes": 2434793472,
+    "batch": 8,
+    "ram_available_bytes": 512020480,
+    "process_rss_bytes": 257073152
+  },
+  {
+    "epoch": 5,
+    "seconds": 59.37558750004973,
+    "cuda_peak_allocated_bytes": 1256053760,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 368447488,
+    "process_rss_bytes": 281268224
+  },
+  {
+    "epoch": 6,
+    "seconds": 55.37730689998716,
+    "cuda_peak_allocated_bytes": 1246791680,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 444792832,
+    "process_rss_bytes": 468246528
+  },
+  {
+    "epoch": 7,
+    "seconds": 59.75602309999522,
+    "cuda_peak_allocated_bytes": 1350651392,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 538132480,
+    "process_rss_bytes": 469938176
+  },
+  {
+    "epoch": 8,
+    "seconds": 63.83928990003187,
+    "cuda_peak_allocated_bytes": 1323335680,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 381726720,
+    "process_rss_bytes": 453820416
+  },
+  {
+    "epoch": 9,
+    "seconds": 66.61626679997426,
+    "cuda_peak_allocated_bytes": 1275329024,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 490807296,
+    "process_rss_bytes": 438628352
+  },
+  {
+    "epoch": 10,
+    "seconds": 54.21191880002152,
+    "cuda_peak_allocated_bytes": 1277615616,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2968162304,
+    "process_rss_bytes": 273522688
+  },
+  {
+    "epoch": 11,
+    "seconds": 46.933336200076155,
+    "cuda_peak_allocated_bytes": 1195500032,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2574254080,
+    "process_rss_bytes": 338960384
+  },
+  {
+    "epoch": 12,
+    "seconds": 47.45210009999573,
+    "cuda_peak_allocated_bytes": 1278767104,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2229436416,
+    "process_rss_bytes": 339939328
+  },
+  {
+    "epoch": 13,
+    "seconds": 49.9770920999581,
+    "cuda_peak_allocated_bytes": 1232061952,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2063687680,
+    "process_rss_bytes": 340709376
+  },
+  {
+    "epoch": 14,
+    "seconds": 46.697985099977814,
+    "cuda_peak_allocated_bytes": 1233203712,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2066673664,
+    "process_rss_bytes": 341090304
+  },
+  {
+    "epoch": 15,
+    "seconds": 41.3849589000456,
+    "cuda_peak_allocated_bytes": 1257060864,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2324209664,
+    "process_rss_bytes": 341540864
+  },
+  {
+    "epoch": 16,
+    "seconds": 41.078767200000584,
+    "cuda_peak_allocated_bytes": 1271920128,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2290085888,
+    "process_rss_bytes": 341835776
+  },
+  {
+    "epoch": 17,
+    "seconds": 40.93776970007457,
+    "cuda_peak_allocated_bytes": 1212634112,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2320547840,
+    "process_rss_bytes": 342147072
+  },
+  {
+    "epoch": 18,
+    "seconds": 41.2067345000105,
+    "cuda_peak_allocated_bytes": 1224095232,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2329825280,
+    "process_rss_bytes": 341250048
+  },
+  {
+    "epoch": 19,
+    "seconds": 41.425656999927014,
+    "cuda_peak_allocated_bytes": 1223486976,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2348384256,
+    "process_rss_bytes": 341655552
+  },
+  {
+    "epoch": 20,
+    "seconds": 42.61598249990493,
+    "cuda_peak_allocated_bytes": 1233203712,
+    "cuda_free_bytes": 2432696320,
+    "batch": 8,
+    "ram_available_bytes": 2290302976,
+    "process_rss_bytes": 341798912
+  }
+]

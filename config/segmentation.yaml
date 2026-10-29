@@ -1,0 +1,20 @@
+names:
+  0: Open blade disconnect switch
+  1: Closed blade disconnect switch
+  2: Open tandem disconnect switch
+  3: Closed tandem disconnect switch
+  4: Breaker
+  5: Fuse disconnect switch
+  6: Glass disc insulator
+  7: Porcelain pin insulator
+  8: Muffle
+  9: Lightning arrester
+  10: Recloser
+  11: Power transformer
+  12: Current transformer
+  13: Potential transformer
+  14: Tripolar disconnect switch
+path: C:/Users/lucas.neto/Documents/YOLO_Subestacoes/dataset/segmentation
+test: images/test
+train: images/train
+val: images/val

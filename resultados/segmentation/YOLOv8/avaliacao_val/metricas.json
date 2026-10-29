@@ -1,0 +1,55 @@
+{
+  "checkpoint_sha256": "e7d4b2f3dde87091c9498426ea48dccbce353394d59928ea7f53c8a5b8781436",
+  "rows": [
+    {
+      "task": "segmentation",
+      "model": "YOLOv8",
+      "split": "val",
+      "metric_type": "box",
+      "precision": 0.7018231787170381,
+      "recall": 0.5251245692348031,
+      "map50": 0.5675420270310089,
+      "map50_95": 0.3260919516426757,
+      "parameters": 3394173,
+      "inference_ms": 2.313969880305081,
+      "preprocess_ms": 1.7295979920879425,
+      "postprocess_ms": 3.251466266137649,
+      "training_seconds": 1553.6660152999684,
+      "batch": 8,
+      "latency_e2e_mean_ms": 15.483280022939047,
+      "latency_e2e_std_ms": 2.6960155036049596
+    },
+    {
+      "task": "segmentation",
+      "model": "YOLOv8",
+      "split": "val",
+      "metric_type": "mask",
+      "precision": 0.6607524524137526,
+      "recall": 0.5007071693480217,
+      "map50": 0.5300778176188728,
+      "map50_95": 0.25295482854916146,
+      "parameters": 3394173,
+      "inference_ms": 2.313969880305081,
+      "preprocess_ms": 1.7295979920879425,
+      "postprocess_ms": 3.251466266137649,
+      "training_seconds": 1553.6660152999684,
+      "batch": 8,
+      "latency_e2e_mean_ms": 15.483280022939047,
+      "latency_e2e_std_ms": 2.6960155036049596
+    }
+  ],
+  "speed": {
+    "preprocess": 1.7295979920879425,
+    "inference": 2.313969880305081,
+    "loss": 0.0010309226616439092,
+    "postprocess": 3.251466266137649
+  },
+  "benchmark": {
+    "image": "C:\\Users\\lucas.neto\\Documents\\YOLO_Subestacoes\\dataset\\segmentation\\images\\val\\202107131415546185208.jpg",
+    "warmup": 5,
+    "repeats": 30,
+    "batch": 1,
+    "includes": "leitura, pré-processamento, modelo e NMS; API predict"
+  },
+  "metric_definition": "AP IoU=0.50 e média IoU=0.50:0.95; precision/recall no ponto F1 ótimo da curva."
+}

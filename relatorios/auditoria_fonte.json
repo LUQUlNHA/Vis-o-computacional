@@ -1,0 +1,25 @@
+{
+  "raw_counts": {
+    "Power transformer": 768,
+    "Recloser": 2329,
+    "Closed blade disconnect switch": 5224,
+    "Breaker": 980,
+    "Current transformer": 2128,
+    "Porcelain pin insulator": 26450,
+    "Glass disc insulator": 3180,
+    "Lightning arrester": 1974,
+    "Background": 2284,
+    "Muffle": 1354,
+    "Fuse disconnect switch": 355,
+    "Closed tandem disconnect switch": 957,
+    "Potential transformer": 651,
+    "Open tandem disconnect switch": 1596,
+    "Tripolar disconnect switch": 2348,
+    "Open blade disconnect switch": 308
+  },
+  "raw_equipment_polygons": 50602,
+  "background_polygons": 2284,
+  "converted_instances": 50596,
+  "published_total": 50705,
+  "note": "As contagens do arquivo original diferem da descrição do Zenodo. Foram usados os JSONs reais, sem criar objetos para forçar correspondência com os metadados."
+}

@@ -1,0 +1,22 @@
+{
+  "epochs": 20,
+  "imgsz": 640,
+  "batch": 8,
+  "optimizer": "SGD",
+  "lr0": 0.01,
+  "seed": 42,
+  "device": 0,
+  "amp": true,
+  "patience": 0,
+  "workers": 0,
+  "deterministic": true,
+  "cache": false,
+  "save": true,
+  "plots": true,
+  "overlap_mask": false,
+  "mask_ratio": 4,
+  "data": "C:\\Users\\lucas.neto\\Documents\\YOLO_Subestacoes\\config\\segmentation.yaml",
+  "project": "C:\\Users\\lucas.neto\\Documents\\YOLO_Subestacoes\\resultados\\segmentation",
+  "name": "YOLO11",
+  "exist_ok": true
+}

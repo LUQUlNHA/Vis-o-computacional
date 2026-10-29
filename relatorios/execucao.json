@@ -1,0 +1,29 @@
+{
+  "started": 1793299629.615581,
+  "sessions": [
+    {
+      "started": 1793300751.4723084,
+      "finished": 1793300874.298526,
+      "seconds": 122.82621765136719
+    },
+    {
+      "started": 1793301001.2966943,
+      "finished": 1793301199.4771261,
+      "seconds": 198.18043184280396
+    },
+    {
+      "started": 1793301519.817282,
+      "finished": 1793307343.8253639,
+      "seconds": 5824.008081912994
+    },
+    {
+      "started": 1793307502.8549788,
+      "finished": 1793307549.185979,
+      "seconds": 46.331000089645386
+    }
+  ],
+  "time_scope": "Tempo corrido desde registro inicial do download; inclui download, preparação e execução.",
+  "status": "concluido",
+  "active_seconds_total": 6191.345731496811,
+  "elapsed_wall_seconds": 7919.570397853851
+}

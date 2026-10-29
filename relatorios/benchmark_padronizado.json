@@ -1,0 +1,46 @@
+{
+  "image": "C:\\Users\\lucas.neto\\Documents\\YOLO_Subestacoes\\dataset\\detection\\images\\val\\202107131415546185208.jpg",
+  "warmup": 10,
+  "rounds": 3,
+  "repeats_per_round": 30,
+  "batch": 1,
+  "rows": [
+    {
+      "task": "detection",
+      "model": "YOLOv8",
+      "mean_ms": 11.949571128934622,
+      "std_ms": 2.667134715313931,
+      "median_ms": 11.094299959950149,
+      "p95_ms": 17.000349971931428,
+      "samples": 90
+    },
+    {
+      "task": "detection",
+      "model": "YOLO11",
+      "mean_ms": 13.778031112936636,
+      "std_ms": 3.0615020491971263,
+      "median_ms": 13.192799990065396,
+      "p95_ms": 18.661174946464598,
+      "samples": 90
+    },
+    {
+      "task": "segmentation",
+      "model": "YOLOv8",
+      "mean_ms": 12.414844422083762,
+      "std_ms": 2.577027758608995,
+      "median_ms": 11.574749951250851,
+      "p95_ms": 18.08197489008307,
+      "samples": 90
+    },
+    {
+      "task": "segmentation",
+      "model": "YOLO11",
+      "mean_ms": 17.070243344642222,
+      "std_ms": 3.9494113453546644,
+      "median_ms": 17.587300040759146,
+      "p95_ms": 23.114580078981813,
+      "samples": 90
+    }
+  ],
+  "scope": "API predict E2E: leitura + processamento + modelo + NMS, FP16 CUDA, imagem real de validação. Todos os valores mantidos, sem exclusão de outliers. Benchmark adicional motivado por dispersão nas medições originais, que foram preservadas."
+}

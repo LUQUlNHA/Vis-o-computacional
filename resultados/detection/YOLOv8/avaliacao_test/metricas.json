@@ -1,0 +1,37 @@
+{
+  "checkpoint_sha256": "182018a117306ee912bda2933d9b0c561b309278fd69a9ea011c286e92079ae7",
+  "rows": [
+    {
+      "task": "detection",
+      "model": "YOLOv8",
+      "split": "test",
+      "metric_type": "box",
+      "precision": 0.7231074679433591,
+      "recall": 0.501968023822171,
+      "map50": 0.5438958785675162,
+      "map50_95": 0.30720714055257414,
+      "parameters": 3141405,
+      "inference_ms": 1.4737847365857846,
+      "preprocess_ms": 0.9084718851709223,
+      "postprocess_ms": 1.5045325290486515,
+      "training_seconds": 1037.355842799996,
+      "batch": 8,
+      "latency_e2e_mean_ms": 31.69893668188403,
+      "latency_e2e_std_ms": 28.845077759942285
+    }
+  ],
+  "speed": {
+    "preprocess": 0.9084718851709223,
+    "inference": 1.4737847365857846,
+    "loss": 0.0008128491795086957,
+    "postprocess": 1.5045325290486515
+  },
+  "benchmark": {
+    "image": "C:\\Users\\lucas.neto\\Documents\\YOLO_Subestacoes\\dataset\\detection\\images\\val\\202107131415546185208.jpg",
+    "warmup": 5,
+    "repeats": 30,
+    "batch": 1,
+    "includes": "leitura, pré-processamento, modelo e NMS; API predict"
+  },
+  "metric_definition": "AP IoU=0.50 e média IoU=0.50:0.95; precision/recall no ponto F1 ótimo da curva."
+}
